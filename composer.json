@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Bernigend",
+      "email": "developer@bernigend.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
